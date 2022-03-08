@@ -4,24 +4,20 @@ import './Portfolio.scss'
 import PortfolioList from '../portfolioList/PortfolioList'
 
 export default function Portfolio() {
-  const [selected, setSelected] = useState("featured")
+  const [selected, setSelected] = useState("Projects")
   const list = [
     {
-      id: 'featured',
-      title: "Featured"
+      id: 'Projects',
+      title: "Projects"
     },
     {
-      id: 'web',
-      title: "Web App"
+      id: 'Skills',
+      title: "Skills"
     },
     {
-      id: 'mobile',
-      title: "Mobile App"
+      id: 'Education',
+      title: "Education"
     },
-    {
-      id: 'design',
-      title: "Design"
-    }
 
   ]
   return (

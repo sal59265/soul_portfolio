@@ -11,12 +11,6 @@ export default function Menu({hamburgerOpen, setHamburgerOpen }) {
         <li onClick={()=>setHamburgerOpen(false)}>
         <a href='#portfolio'>Portfolio</a>
         </li>
-        <li onClick={()=>setHamburgerOpen(false)}>
-        <a href='#works'>Works</a>
-        </li>
-        <li onClick={()=>setHamburgerOpen(false)}>
-        <a href='#footer'>Footer</a>
-        </li>
       </ul>
     </div>
   )
